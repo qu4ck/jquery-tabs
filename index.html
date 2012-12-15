@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Isoweb jquery Tabs</title>
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/isoweb.tabs.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$.isoTabs({
+					 click	: "#tabs-nav a"
+					,list	: "#list-tabs"
+					,show	: "#tabs1"
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<ul id="tabs-nav" class="tabs-nav">
+			<li><a href="#tabs1">Populer</a></li>
+			<li><a href="#tabs2">Terkini</a></li>
+			<li><a href="#tabs3">Komentar</a></li>
+			<li><a href="#tabs4">Tags</a></li>
+		</ul>
+		<div class="list-tabs" id="list-tabs">
+			<div id="tabs1">
+				<ul>
+					<li><a href="http://www.iso.web.id" target="_blank">www.iso.web.id</a></li>
+					<li><a href="http://www.wolusiji.com" target="_blank">http://www.wolusiji.com</a></li>
+					<li><a href="#">List 1</a></li>
+					<li><a href="#">List 2</a></li>
+				</ul>
+			</div>
+			<div id="tabs2">tabs2</div>
+			<div id="tabs3">tabs3</div>
+			<div id="tabs4">
+				<a href="#" style="font-size:18px">Surabaya</a>
+				<a href="#" style="font-size:12px">Jatim</a>
+				<a href="#" style="font-size:15px">vaksin</a>
+			</div>
+		</div>
+	</body>
+</html>

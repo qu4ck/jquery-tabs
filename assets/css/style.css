@@ -1,0 +1,11 @@
+ul.tabs-nav{margin:0 0 0 5px;padding:0;height:28px;}
+ul.tabs-nav li{float:left;padding:0;margin:0;list-style-type:none;}
+ul.tabs-nav a{float:left;font-size:13px;font-weight:bold;display:block;padding:5px 15px;text-decoration:none;border-bottom:0px;border-right:1px solid #ECEDE8;height:18px;color:#333;outline:0;background:url(../image/bg-title.jpg) repeat-x;}
+ul.tabs-nav a:hover{background-color:#FCD2D2;color:#7a0303;}
+ul.tabs-nav a.active{background:#FFF;border-bottom:1px solid #FFF;border-right:1px solid #ECEDE8;color:#7a0303;cursor:default;}
+.css-panes div{display:none;border:1px solid #666;border-width:0 1px 1px 1px;min-height:150px;padding:15px 20px;background-color:#ddd;font-weight:bold;}
+.list-tabs{border-top:1px solid #D8D8D8;padding:0 8px;background-color: #FFF;}
+.list-tabs ul{margin:0;padding:0!important;}
+.list-tabs li{list-style:none;background: url(../image/icon-bullet.gif) no-repeat left center;padding:0 0 0 15px;}
+.list-tabs a{color:#2D4D89;text-decoration:none;font-size:12px;}
+.list-tabs a:hover{color:#BB0000;}
